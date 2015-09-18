@@ -10,8 +10,10 @@ or
 $ python aStar.py World1.txt diagonal
 ```
 
+Where "World1.txt" can be replaced by any appropriately formatted file.
+
 The diagonal heuristic calculates possible distance including diagonal distances, whereas the manhattan distance does not.
-The diagonal heuristic is calculated the same way the diagonal is calculated, with a score of 14 for a diagonal move, and a score of 10 for a vertical or horizontal move. This can be calculated by the following:
+The diagonal heuristic is calculated the same way diagonal distance is calculated, with a score of 14 for a diagonal move, and a score of 10 for a vertical or horizontal move. This can be calculated by the following:
 
 ```
 10*abs(delta_x) + 10*abs(delta_y) + (14 - 20) * min(delta_x, delta_y)
