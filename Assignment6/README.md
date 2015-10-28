@@ -20,7 +20,7 @@ These are the programmed functionalities of the program:
 
 -j~p~s~c is the joint probability for pollution = high, smoker = false, cancer = false
 
--g"c|s" is the conditional probability for Cancer given that someone is a smoker.
+-gc\s is the conditional probability for Cancer given that someone is a smoker.
 
 -pS=0.40 sets the probability that smoking is True to .40.
 
