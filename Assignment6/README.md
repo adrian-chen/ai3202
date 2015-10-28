@@ -5,10 +5,17 @@ Adrian Chen
 python main.py <insert flags here>
 ```
 Possible flags are:
+
 -p set a prior
+
 -m marginal probability
+
 -g conditional probability
+
 -j joint probability
+
+Note that conditional probability is denoted with a "\" instead of a "|".
+
 ### Functionality
 These are the programmed functionalities of the program:
 
