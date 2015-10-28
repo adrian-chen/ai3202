@@ -22,6 +22,6 @@ These are the programmed functionalities of the program:
 
 -g"c|s" is the conditional probability for Cancer given that someone is a smoker.
 
--pS .40 sets the probability that smoking is True to .40.
+-pS=0.40 sets the probability that smoking is True to .40.
 
--pP = .80 sets the probability that pollution is Low to .80.
+-pP=0.80 sets the probability that pollution is Low to .80.
